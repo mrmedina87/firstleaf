@@ -1,0 +1,43 @@
+.wines-view .wines-images {
+  margin-bottom: 70px; }
+  .wines-view .wines-images .wine-image-wrapper {
+    text-align: center; }
+
+@media (max-width: 1000px) {
+  .wines-view .wines-images {
+    margin-bottom: 0px !important;
+    height: 600px; }
+    .wines-view .wines-images .wine-image-wrapper {
+      margin-bottom: 25px;
+      padding-left: 0;
+      padding-right: 0; }
+  .wines-view .box-space-holder {
+    height: 600px; } }
+
+@media (max-width: 800px) {
+  .wines-view .wines-images {
+    height: 550px; }
+  .wines-view .box-space-holder {
+    height: 550px; } }
+
+@media (max-width: 767px) {
+  .wines-view .wines-images {
+    height: 450px; }
+  .wines-view .box-space-holder {
+    height: 450px; } }
+
+@media (max-width: 600px) {
+  .wines-view .wines-images {
+    height: 360px; }
+  .wines-view .box-space-holder {
+    height: 360px; }
+  .wines-view .wine-image-wrapper {
+    margin-bottom: 25px;
+    padding-left: 0;
+    padding-right: 0; } }
+
+@media (max-width: 500px) {
+  .wines-view .wines-images {
+    height: 300px; }
+  .wines-view .box-space-holder {
+    height: 300px; } }

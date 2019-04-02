@@ -1,0 +1,98 @@
+@import "../../assets/sass-variables/_colors";
+
+section.landing-body {
+  padding-bottom: 320px;
+}
+
+.floating-section-wrapper {
+  background: $white;
+  position: relative;
+  height: 390px;
+  .floating-purple-cta {
+    text-align: center;
+    background: $purple;
+    padding: 30px 50px;
+    color: $white;
+    position: relative;
+    top: -270px;
+    font-family: ApercuRegular;
+    h3 {
+      font-size: 40px;
+    }
+
+    .price {
+      font-size: 87px;
+      font-family: ApercuBold;
+      text-align: right;
+    }
+
+    .normal-price {
+      font-size: 17px;
+    }
+
+    .tax-shipping {
+      font-family: ApercuLight;
+      font-size: 27px;
+      text-align: left;
+      margin-top: 20px;
+      border-left: 1px solid $white;
+    }
+
+    .money-back {
+      margin-top: 20px;
+      font-family: ApercuLight;
+      font-size: 15px;
+    }
+
+    .separator {
+      margin-top: 15px;
+      margin-bottom: 30px;
+    }
+  }
+
+}
+
+@media (max-width: 767px) {
+  .floating-section-wrapper {
+    height: 230px;
+  }
+
+  section.landing-body {
+    padding-bottom: 180px;
+  }
+
+  .floating-section-wrapper {
+    .floating-purple-cta {
+      top: -150px;
+      
+      h3{
+        font-size: 18px;
+      }
+      .price{
+        font-size: 40px;
+        margin-top: 10px;
+        text-align: right;
+      }
+      .money-back {
+        margin-top: 20px;
+        font-family: ApercuLight;
+        font-size: 12px;
+      }
+      .tax-shipping {
+        font-size: 13px;
+      }
+      .normal-price {
+        font-size: 14px;
+      }
+    }
+  } 
+}
+
+@media (max-width: 450px) {
+  .floating-section-wrapper {
+    height: 120px;
+    .floating-purple-cta {
+      padding: 15px 10px;
+    }
+  }
+}

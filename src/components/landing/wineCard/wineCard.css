@@ -1,0 +1,95 @@
+.wine-info {
+  min-height: 310px; }
+  .wine-info .wine-detail-col {
+    padding: 0; }
+  .wine-info .wine-detail-right {
+    text-align: right;
+    float: right; }
+  .wine-info div .section-bullet {
+    font-family: 'ApercuBold';
+    font-weight: bold;
+    font-size: 24px;
+    color: black; }
+  .wine-info div .wine-data {
+    font-family: ApercuLight;
+    font-size: 24px;
+    color: #413746; }
+    .wine-info div .wine-data.strike-through {
+      text-decoration: line-through;
+      color: #C0C0C0; }
+  .wine-info div .read-more-link {
+    color: #F26E55;
+    cursor: pointer; }
+  .wine-info div .intro-price {
+    color: #F26E55; }
+  .wine-info h3 {
+    font-family: Caslon;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    border-bottom: solid 2px #F26E55; }
+
+.wine-description-wrapper {
+  margin-bottom: 20px; }
+
+.section-bullet {
+  margin-top: 10px;
+  display: inline-block;
+  margin-right: 8px; }
+
+button.swap-button {
+  background-image: url("../../../assets/img/swap-button.png");
+  margin-top: 25px;
+  padding: 10px 20px 10px 60px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: auto 76%;
+  background-position: 10%; }
+
+.box-space-holder {
+  overflow: hidden;
+  position: relative; }
+  .box-space-holder > img.holder {
+    visibility: hidden; }
+  .box-space-holder > img.wine-img {
+    position: absolute;
+    left: 25%;
+    transition: 1s; }
+    .box-space-holder > img.wine-img.in-the-left {
+      left: -125%;
+      transition: 1s; }
+
+@media (max-width: 1000px) {
+  .box-space-holder > img.wine-img {
+    width: 130px; }
+  .wine-detail-right {
+    text-align: left !important;
+    float: left !important; } }
+
+@media (max-width: 767px) {
+  .box-space-holder > img.wine-img {
+    width: 100px; }
+  .wine-info h3 {
+    font-size: 26px; }
+  .wine-info div .section-bullet {
+    font-size: 20px; }
+  .wine-info div .wine-data {
+    font-size: 20px; }
+  button.swap-button {
+    width: 100%; } }
+
+@media (max-width: 610px) {
+  .box-space-holder > img.wine-img {
+    width: 80px; } }
+
+@media (max-width: 580px) {
+  .box-space-holder > img.holder {
+    width: 100%; }
+  .box-space-holder > img.wine-img {
+    width: 65px; }
+  .wine-info h3 {
+    font-size: 24px; }
+  .wine-info div .section-bullet {
+    font-size: 19px; }
+  .wine-info div .wine-data {
+    font-size: 19px; } }

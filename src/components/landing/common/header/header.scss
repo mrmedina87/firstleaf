@@ -1,0 +1,46 @@
+@import "../../../../assets/sass-variables/_colors";
+
+header{
+  height: 65px;
+  background-color: #fff;
+  padding: 0 40px;
+  div{
+    .icon-container{
+      width: 140px;
+      margin: 15px 0px;
+      display: inline-block;
+
+      .logo-img {
+        display: inline-block;
+        width: 100%;
+      }
+
+    }
+    .get-started-button-header {
+      margin: 10px 0px;
+      float: right;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 0 5px;
+
+    div {
+      .icon-container{
+        width: 85px;
+        margin: 20px 0px;
+        display: inline-block;
+
+        .get-started-button-header {
+          margin: 13px 0px;
+          button{
+            font-size: 11px;
+            padding: 12px 20px;
+          }
+        }
+      }
+    }
+  }
+}

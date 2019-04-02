@@ -1,0 +1,76 @@
+.pre-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center; }
+  .pre-footer p.contact-text {
+    margin-top: 20px;
+    font-family: ApercuLight;
+    color: black; }
+    .pre-footer p.contact-text a {
+      color: #F26E55;
+      margin-left: 5px;
+      margin-right: 5px; }
+
+.bottom-footer {
+  background: #413746;
+  padding: 45px 45px 5px; }
+
+.footer-links-list {
+  padding: 0;
+  margin: 0 0 20px;
+  list-style: none; }
+  .footer-links-list li {
+    list-style: none;
+    display: inline-block; }
+    .footer-links-list li a {
+      color: #C3C4C1;
+      font-family: ApercuLight;
+      padding: 0 10px; }
+    .footer-links-list li:first-child a {
+      padding-left: 0; }
+  .footer-links-list.legal-links li a {
+    border-right: 1px solid #C3C4C1; }
+  .footer-links-list.legal-links li:last-child a {
+    border-right: 0; }
+
+.logo-footer-wrapper {
+  margin-bottom: 60px; }
+  .logo-footer-wrapper img.footer-logo {
+    display: inline-block;
+    width: 5%; }
+
+.phone-number-col {
+  text-align: right; }
+
+.phone-message {
+  color: #FFFFFF;
+  font-family: ApercuLight;
+  font-size: 27px; }
+  .phone-message .orange-phone {
+    margin-right: 10px;
+    color: #F26E55; }
+
+@media (max-width: 991px) {
+  .phone-number-col {
+    text-align: left; } }
+
+@media (max-width: 767px) {
+  .phone-number-col {
+    text-align: left;
+    margin-bottom: 40px; }
+  .phone-message {
+    font-size: 20px; }
+  .footer-links-list.hide-on-md li {
+    width: 50%;
+    margin-bottom: 5px; }
+    .footer-links-list.hide-on-md li a {
+      padding: 0; }
+  .footer-links-list.hide-on-md.legal-links li {
+    width: 100%; }
+    .footer-links-list.hide-on-md.legal-links li a {
+      border-right: 0;
+      color: #999999; }
+  .bottom-footer {
+    padding: 25px 0px 5px; }
+    .bottom-footer .logo-footer-wrapper {
+      margin-bottom: 30px; } }

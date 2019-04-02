@@ -1,0 +1,66 @@
+@font-face {
+  font-family: ApercuLight;
+  src: url("./assets/fonts/Apercu/100-apercu_light.otf"); }
+
+@font-face {
+  font-family: ApercuRegular;
+  src: url("./assets/fonts/Apercu/apercu_regular.otf"); }
+
+@font-face {
+  font-family: Apercu;
+  src: url("./assets/fonts/Apercu/apercu_medium.otf"); }
+
+@font-face {
+  font-family: ApercuBold;
+  src: url("./assets/fonts/Apercu/apercu_bold.otf"); }
+
+@font-face {
+  font-family: Caslon;
+  src: url("./assets/fonts/Caslon/Caslon224Std-Medium.otf"); }
+
+@font-face {
+  font-family: Gotham;
+  src: url("./assets/fonts/Gotham/Gotham_Medium.otf"); }
+
+@font-face {
+  font-family: GothamLight;
+  src: url("./assets/fonts/Gotham/GothamLightRegular.otf"); }
+
+body {
+  background: #F2F2F2;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+  body .fade {
+    opacity: 1; }
+  body .modal-backdrop.fade {
+    opacity: 0.5; }
+
+button.cta-btn {
+  font-size: 12px;
+  font-family: Gotham;
+  padding: 12px 30px;
+  background-color: #F26E55;
+  color: #FFFFFF;
+  border: none;
+  text-transform: uppercase; }
+  button.cta-btn.cta-medium {
+    font-size: 16px;
+    padding: 18px 57px 16px; }
+  button.cta-btn.cta-large {
+    font-size: 20px;
+    padding: 19px 67px 17px; }
+
+@media (min-width: 768px) {
+  .hide-on-md {
+    display: none; } }
+
+@media (max-width: 767px) {
+  .hide-on-sm {
+    display: none; }
+  button.cta-btn.cta-medium {
+    font-size: 16px;
+    padding: 16px 65px; }
+  button.cta-btn.cta-large {
+    font-size: 14px;
+    padding: 13px 30px; } }

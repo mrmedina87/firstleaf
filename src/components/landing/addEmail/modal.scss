@@ -1,0 +1,46 @@
+@import "../../../assets/sass-variables/_colors";
+.modal-body{
+  background: $gray;
+  border-radius: 10px;
+}
+
+.new-email-wrapper {
+  h2 {
+    font-family: Gotham;
+  }
+  .button-wrapper {
+    button{
+      font-family: GothamLight;
+      width: 270px;
+      background: #f26f55;
+      font-size: 16px;
+      padding: 5px 20px;
+      border: 0;
+      cursor: pointer;
+      color: #f2f0eb;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .form-group {
+    .form-field-wrapper {
+      .error-message {
+        margin: 10px 0px;
+        span{
+          font-family: GothamLight;
+          color: $orange;
+        }
+      }
+      input {
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        padding-left: 30px;
+        margin-bottom: 12px;
+        font-size: 15px;
+        color: #696a6b;
+        border: 1px solid #c6c7c4;
+      }
+    }
+  }
+}

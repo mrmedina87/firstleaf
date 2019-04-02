@@ -1,0 +1,64 @@
+section.landing-body {
+  padding-bottom: 320px; }
+
+.floating-section-wrapper {
+  background: #FFFFFF;
+  position: relative;
+  height: 390px; }
+  .floating-section-wrapper .floating-purple-cta {
+    text-align: center;
+    background: #413746;
+    padding: 30px 50px;
+    color: #FFFFFF;
+    position: relative;
+    top: -270px;
+    font-family: ApercuRegular; }
+    .floating-section-wrapper .floating-purple-cta h3 {
+      font-size: 40px; }
+    .floating-section-wrapper .floating-purple-cta .price {
+      font-size: 87px;
+      font-family: ApercuBold;
+      text-align: right; }
+    .floating-section-wrapper .floating-purple-cta .normal-price {
+      font-size: 17px; }
+    .floating-section-wrapper .floating-purple-cta .tax-shipping {
+      font-family: ApercuLight;
+      font-size: 27px;
+      text-align: left;
+      margin-top: 20px;
+      border-left: 1px solid #FFFFFF; }
+    .floating-section-wrapper .floating-purple-cta .money-back {
+      margin-top: 20px;
+      font-family: ApercuLight;
+      font-size: 15px; }
+    .floating-section-wrapper .floating-purple-cta .separator {
+      margin-top: 15px;
+      margin-bottom: 30px; }
+
+@media (max-width: 767px) {
+  .floating-section-wrapper {
+    height: 230px; }
+  section.landing-body {
+    padding-bottom: 180px; }
+  .floating-section-wrapper .floating-purple-cta {
+    top: -150px; }
+    .floating-section-wrapper .floating-purple-cta h3 {
+      font-size: 18px; }
+    .floating-section-wrapper .floating-purple-cta .price {
+      font-size: 40px;
+      margin-top: 10px;
+      text-align: right; }
+    .floating-section-wrapper .floating-purple-cta .money-back {
+      margin-top: 20px;
+      font-family: ApercuLight;
+      font-size: 12px; }
+    .floating-section-wrapper .floating-purple-cta .tax-shipping {
+      font-size: 13px; }
+    .floating-section-wrapper .floating-purple-cta .normal-price {
+      font-size: 14px; } }
+
+@media (max-width: 450px) {
+  .floating-section-wrapper {
+    height: 120px; }
+    .floating-section-wrapper .floating-purple-cta {
+      padding: 15px 10px; } }

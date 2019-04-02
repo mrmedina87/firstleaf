@@ -1,0 +1,34 @@
+.modal-body {
+  background: #F2F2F2;
+  border-radius: 10px; }
+
+.new-email-wrapper h2 {
+  font-family: Gotham; }
+
+.new-email-wrapper .button-wrapper button {
+  font-family: GothamLight;
+  width: 270px;
+  background: #f26f55;
+  font-size: 16px;
+  padding: 5px 20px;
+  border: 0;
+  cursor: pointer;
+  color: #f2f0eb;
+  display: block;
+  margin: 0 auto; }
+
+.new-email-wrapper .form-group .form-field-wrapper .error-message {
+  margin: 10px 0px; }
+  .new-email-wrapper .form-group .form-field-wrapper .error-message span {
+    font-family: GothamLight;
+    color: #F26E55; }
+
+.new-email-wrapper .form-group .form-field-wrapper input {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #696a6b;
+  border: 1px solid #c6c7c4; }

@@ -1,0 +1,52 @@
+@import "../../../assets/sass-variables/_colors";
+
+.results-text {
+
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+
+  h2 {
+    font-family: ApercuLight;
+    color: $grey-title;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+}
+
+.separator {
+  width: 30%;
+  display: inline-block;
+  border-top: 1.3px solid $grey-title;
+}
+
+.landing-black-apercu {
+  font-family: ApercuLight;
+  font-size: 41px;
+  color: $black; 
+}
+
+.landing-orange-caslo {
+  font-family: Caslon;
+  font-size: 41px;
+  color: $orange; 
+}
+
+@media (max-width: 767px) {
+  .landing-black-apercu {
+    font-size: 21px;
+  }
+
+  .landing-orange-caslo {
+    font-size: 21px;
+  }
+
+  .results-text {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    h2 {
+      font-size: 12px;
+    }
+  }
+}

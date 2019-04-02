@@ -1,0 +1,27 @@
+header {
+  height: 65px;
+  background-color: #fff;
+  padding: 0 40px; }
+  header div .icon-container {
+    width: 140px;
+    margin: 15px 0px;
+    display: inline-block; }
+    header div .icon-container .logo-img {
+      display: inline-block;
+      width: 100%; }
+  header div .get-started-button-header {
+    margin: 10px 0px;
+    float: right; }
+
+@media (max-width: 600px) {
+  header {
+    padding: 0 5px; }
+    header div .icon-container {
+      width: 85px;
+      margin: 20px 0px;
+      display: inline-block; }
+      header div .icon-container .get-started-button-header {
+        margin: 13px 0px; }
+        header div .icon-container .get-started-button-header button {
+          font-size: 11px;
+          padding: 12px 20px; } }
